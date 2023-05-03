@@ -5,9 +5,15 @@
 
 <form action="{%url 'create'%}" method="POST">
     {%csrf_token%}
+<<<<<<< HEAD
     <p>제목: <input type="text" name="title"></p>
     <p>작성자: <input type="text" name="writer"></p>
     <p>내용: <textarea type="text" name="body" id="" cols="30" rows="10"></textarea></p>
+=======
+    <p>제목 : <input type="text" name="title"></p>
+    <p>작성자 : <input type="text" name="writer"></p>
+    <p>내용 : <textarea type="text" name="body" id="" cols="30" rows="10"></textarea></p>
+>>>>>>> 7c46afe8e19fddf1c5d717d94f9e66669aca341f
     <button type="submit">제출</button>
 </form>
 
